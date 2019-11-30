@@ -57,6 +57,7 @@ THE SOFTWARE.
   s.subspec 'GrowingTouchCoreKit' do |core|
       core.frameworks = 'UIKit','Foundation'
       core.vendored_frameworks = 'GrowingTouch/GrowingTouchCoreKit/*.framework'
+      core.resources = 'GrowingTouch/GrowingTouchUI/GrowingTouchErrorBundle.bundle'
       core.dependency 'GrowingCoreKit', '>= 2.8.7'
   end
   
