@@ -56,28 +56,28 @@ THE SOFTWARE.
 
   s.subspec 'GrowingTouchCoreKit' do |core|
       core.frameworks = 'UIKit','Foundation'
-      core.vendored_frameworks = 'GrowingTouch/GrowingTouchCoreKit/*.framework'
-      core.resources = 'GrowingTouch/GrowingTouchUI/GrowingTouchErrorBundle.bundle'
+      core.vendored_frameworks = 'GrowingTouchCoreKit/*.framework'
+      core.resources = 'GrowingTouchCoreKit/GrowingTouchCoreUI.bundle'
       core.dependency 'GrowingCoreKit', '>= 2.8.7'
   end
   
   s.subspec 'GrowingTouchKit' do |popup|
      
-     popup.vendored_frameworks = 'GrowingTouch/GrowingTouchKit/*.framework'
-     popup.dependency 'GrowingTouchCoreKit'
+     popup.vendored_frameworks = 'GrowingTouchKit/*.framework'
+     popup.dependency 'GrowingTouch/GrowingTouchCoreKit'
   
   end
   
   s.subspec 'GrowingPushKit' do |push|
      
-     push.vendored_frameworks = 'GrowingTouch/GrowingPushKit/*.framework'
-     push.dependency 'GrowingTouchCoreKit'
+     push.vendored_frameworks = 'GrowingPushKit/*.framework'
+     push.dependency 'GrowingTouch/GrowingTouchCoreKit'
   
   end
   
   s.subspec 'GrowingPushExtensionKit' do |extension|
      
-     extension.vendored_frameworks = 'GrowingTouch/GrowingPushExtensionKit/*.framework'
+     extension.vendored_frameworks = 'GrowingPushExtensionKit/*.framework'
   
   end
   
