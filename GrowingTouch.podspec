@@ -71,7 +71,7 @@ THE SOFTWARE.
   s.subspec 'GrowingTouchBannerKit' do |banner|
      
      banner.vendored_frameworks = 'GrowingTouchBannerKit/*.framework'
-     banner.dependency 'GrowingTouch/GrowingTouchBannerKit'
+     banner.dependency 'GrowingTouch/GrowingTouchCoreKit'
   
   end
   
