@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GrowingTouch"
-  s.version      = "1.2.1"
+  s.version      = "1.2.2"
   s.summary      = "GrowingSDK-iOS-GrowingTouch"
 
   s.description  = <<-DESC
@@ -58,7 +58,7 @@ THE SOFTWARE.
       core.frameworks = 'UIKit','Foundation'
       core.vendored_frameworks = 'GrowingTouchCoreKit/*.framework'
       core.resources = 'GrowingTouchCoreKit/GrowingTouchCoreUI.bundle'
-      core.dependency 'GrowingCoreKit', '>= 2.8.8'
+      core.dependency 'GrowingCoreKit', '>= 2.8.9'
   end
   
   s.subspec 'GrowingTouchKit' do |popup|
