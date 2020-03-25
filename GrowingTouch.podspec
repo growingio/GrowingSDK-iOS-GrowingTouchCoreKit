@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GrowingTouch"
-  s.version      = "1.2.5"
+  s.version      = "1.3.0"
   s.summary      = "GrowingSDK-iOS-GrowingTouch"
 
   s.description  = <<-DESC
